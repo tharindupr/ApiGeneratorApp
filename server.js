@@ -8,7 +8,7 @@ var bodyParser = require('body-parser');
 var mongoose   = require('mongoose');
 
 
-mongoose.connect('mongodb://localhost/rest');
+
 // configure app to use bodyParser()
 // this will let us get the data from a POST
 app.use(bodyParser.urlencoded({ extended: true }));
