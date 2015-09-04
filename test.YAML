@@ -1,0 +1,27 @@
+title: Song API
+version: 1
+baseUri: api
+songs:
+    get:
+    post:
+    songId: 
+        get:
+        delete:
+        put:
+    name:
+        get:
+    schema:
+        songId:String
+        name:String
+        artist:String
+artists:
+    get:
+    post:
+    name:
+        get:
+        put:
+        delete:
+    schema:
+        name:String
+        style:String
+        location:String
